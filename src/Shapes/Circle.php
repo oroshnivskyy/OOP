@@ -1,6 +1,9 @@
 <?php
-class Circle extends Ellipse{
-    private function __construct($radius){
-        parent::__construct($radius, $radius);
+namespace Shapes{
+    class Circle extends Ellipse{
+        public function __construct($radius){
+            parent::__construct($radius, $radius);
+        }
     }
 }
+

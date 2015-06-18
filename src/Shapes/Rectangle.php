@@ -1,6 +1,6 @@
 <?php
-include "JsonSerializeInterface.php";
-class Rectangle implements Shape, JsonSerializeInterface{
+namespace Shapes;
+class Rectangle implements Shape{
 
     protected $width;
     protected $height;
@@ -9,7 +9,7 @@ class Rectangle implements Shape, JsonSerializeInterface{
         return new self($width, $height);
     }
     
-    private function __construct($width, $height){
+    public function __construct($width, $height){
         $this->width = $width;
         $this->height = $height;
     }

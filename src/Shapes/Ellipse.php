@@ -1,4 +1,5 @@
 <?php
+namespace Shapes;
 class Ellipse implements Shape{
     protected $majorRadius;
     protected $minorRadius;
