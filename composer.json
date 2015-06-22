@@ -10,12 +10,9 @@
     }
   ],
   "require": {
-    "symfony/http-foundation": "2.7.*",
-    "symfony/routing": "2.7.*"
   },
   "autoload": {
     "psr-0": {
-      "": "src/"
     }
   }
 }
